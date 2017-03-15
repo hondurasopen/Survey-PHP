@@ -1,0 +1,494 @@
+﻿body {
+	background-color: #339EF2;
+}
+.ms-pagebreadcrumb a {
+	background-color: transparent;
+}
+.ms-ToolPaneTitle, .ms-ToolPaneClose {	
+	background-color: transparent !important;
+	background-image: none !important;
+}
+.ms-consolestatuscell {
+	padding: 0px 9px;	
+	background-color: transparent !important;
+	background-image: none !important;
+
+}
+.ms-consolestatuscheckoutframe, .ms-consoleminiframe {
+	background-color: transparent !important;
+	background-image: none !important;
+}
+.ms-HoverCellActiveDark {
+	background-color: transparent !important;
+	background-image: none !important;
+}
+.ms-partline {
+	background-color: #78c408;
+}
+.ms-WPTitle a:link, .ms-WPTitle a:visited {	
+	color: #006699 !important;
+}
+.ms-itemhover {
+	background: #f6f6f6 none;
+	border: 1px #d6ebff solid;
+}
+table.ms-toolbar, .ms-toolbarContainer {
+	border: none !important;
+	background: #d6ebff none;
+}
+.ms-vh, .ms-vh2, .ms-vh-icon, .ms-vh2-nofilter, .ms-vh2-nofilter-icon, .ms-viewheadertr .ms-vh-group, .ms-vh2-nograd, .ms-vh3-nograd, .ms-vh2-nograd-icon, .ms-ph, .ms-pickerresultheadertr {
+	background-color: #f6f6f6 !important;
+	background-image: none;
+}
+th .ms-vb a, .ms-vh2-nofilter a, .ms-vh2-nofilter-icon a {
+	color: #006699 !important;
+}
+.ms-areaseparatorleft, 
+.ms-areaseparatorright,
+.ms-areaseparator {
+	background: transparent none !important;
+	border: none !important;
+}
+.ms-titlearea, .ms-mwstitlearea, .ms-sitemapdirectional {
+	color: white;
+}
+.ms-pagetitleareaframe table {
+	background-image: none !important;
+}
+td.ms-titlearealeft div.ms-titleareaframe {
+	margin-left: 9px;
+	background: transparent url(_layouts/IMAGES/STARTUP/navDS.png) repeat-x top;
+	height:12px !important;
+}
+td.ms-titleareaframe div.ms-titleareaframe,
+td.ms-pagetitleareaframe {
+	background: transparent url(_layouts/IMAGES/STARTUP/navDS.png) repeat-x top;
+}
+
+.ms-titlearealeft, .ms-titleareaframe, .ms-pagetitleareaframe, .ms-titlearearight {
+	background: transparent;
+	vertical-align: top;
+}
+.ms-topnav a {
+	padding: 0px 16px;
+	color: #006600;
+
+}
+td.topNav {
+	display: none;
+}
+.ms-HoverCellActive, .ms-SpLinkButtonActive {
+	border: 1px transparent solid;
+	background: none;
+}
+
+.ms-main {
+	background: #339ef2 url(bannerBack.jpg)	no-repeat;
+	min-height: 672px;
+}
+
+.ms-globalTitleArea {
+	background: url(_layouts/IMAGES/STARTUP/banner.jpg) top right no-repeat;
+	height: 99px;
+	padding-left: 8px;
+	position: relative;
+	vertical-align: top;	
+}
+
+.ms-globalbreadcrumb {
+	height: 23px;
+	background: #152a37 url(_layouts/IMAGES/STARTUP/globalBreadcrumb.gif) top left repeat-x;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ms-globallinks td {
+	white-space: nowrap;
+}
+
+.ms-sitetitle a {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h1.ms-sitetitle {
+	margin-top: 25px;
+}
+.ms-gb h3.ms-standardheader {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #006699;
+}
+
+.ms-globallinks, .ms-globallinks a, .ms-SPLink a:link, .ms-SPLink a:visited, .ms-globalbreadcrumb a:hover, .ms-sblink a:link, .ms-sblink a:visited {
+	color:white;
+	font-size: 11px;
+	font: arial;
+}
+
+.ms-sblink a:link, .ms-sblink a:visited {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+td.ms-sbcell {
+	border: solid 1px #58585a;
+	background: #ffffff;
+	padding-left: 0px;
+}
+
+td.ms-sblink {
+	border: none;
+	background: none;
+}
+
+.ms-sbtable {
+}
+
+.ms-titleimagearea {
+	display: none;
+}
+
+
+.ms-bannerContainer {
+	background: transparent none;
+	height: 39px;
+	padding: 0px 9px;
+}
+
+.ms-bannerframe {
+	background: transparent url(navBack.gif) repeat-x;
+}
+
+.ms-topnavContainer, .ms-topnavselected, .ms-topnav {
+	border: none;
+	/*background: transparent url(_layouts/IMAGES/STARTUP/navDiv.png) right no-repeat;*/
+	background: none;
+	font-family: verdana;
+	font-size: 12px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: white;
+}
+
+table.ms-topnavselected, table.ms-topnav {
+	/*padding-left: 15px;
+	padding-right: 15px;*/
+	background: url(_layouts/IMAGES/STARTUP/navHL.png) repeat-x;
+	height: 39px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+table.ms-topNavContainer td {
+	background: transparent url(_layouts/IMAGES/STARTUP/navDiv.png) no-repeat;
+}
+table.ms-topNavContainer td td {
+	background: none;
+}
+.ms-topnavselected a, ms-topnav a {
+	color: #006600;
+	text-transform: capitalize;
+}
+
+table.ms-topNavHover, table.ms-topNavHover:hover {
+	border: 1px transparent solid;
+	background: transparent url(_layouts/IMAGES/STARTUP/navBackHover.gif) repeat-x;
+	margin: 0px;
+}
+table.ms-topNavHover a, table.ms-topNavHover:hover a {	
+	color: white;
+}
+
+
+.ms-WPHeader td {
+	border-bottom: solid 1px #0098be;
+}
+
+.ms-WPTitle, .ms-WPHeader {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 14px;
+	color: #006699;
+}
+
+.ms-pagemargin, .ms-nav, .ms-pagebottommargin, .ms-pagebottommarginleft, .ms-pagebottommarginright, td.ms-rightareacell div.ms-pagemargin {
+	background: transparent;
+	border: none;
+}
+.ms-pagemargin img {
+	width: 9px;
+}
+
+.ms-bodyareapagemargin {
+	height: 23px;
+	background: transparent url(_layouts/IMAGES/STARTUP/pageBottom.gif) top left repeat-x;
+	border: none;
+}
+
+.ms-bodyareaframe, .ms-viewareaframe {
+	border:none;
+}
+.ms-menutoolbar td td {
+	background: none;
+	border: none;
+}
+.ms-pagebreadcrumb {
+	background: #339EF2 url(_layouts/IMAGES/STARTUP/breadcrumb.gif) top left repeat-x;
+	border-bottom: solid 1px #2369a0;
+	color: #ffffff;
+	height: 24px;	
+	border-top: 1px #99cff9 solid;
+	border-left: none;
+}
+
+td.ms-titleareaframe, div.ms-titleareaframe, .ms-pagetitleareaframe, .ms-mwspagetitleareaframe, .ms-consoletitleareaframe {
+	background: transparent none repeat-x top left;
+	
+}
+table.ms-navframe {
+	margin-left: 9px;
+}
+table.ms-navframe tbody tr td img {
+	width: 0px;
+}
+.ms-navframe img {
+	width: 9px;
+}
+
+.ms-quicklaunchouter, .ms-quickLaunch {
+	width: 157px !important;
+	border: none;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.ms-quicklaunchouter {
+	padding-bottom: 74px;
+	background: url(_layouts/IMAGES/STARTUP/quickLaunchShade.gif) bottom left repeat-x;
+	border-top: 1px #99cff9 solid;
+}
+
+.ms-quicklaunchheader, table.ms-recyclebin td {
+	background: #339ef2 url(_layouts/IMAGES/STARTUP/breadcrumb.gif) top left repeat-x;
+	color: #ffffff;
+	border: none;
+	padding: 0;
+	padding-left: 7px;
+	text-align: left;
+	line-height: 23px;
+	font: arial 12px;
+	border-bottom: solid 1px #2369a0;
+}
+
+.ms-quicklaunchheader a, .ms-unselectednav a {
+	color: #ffffff;
+}
+
+.ms-quicklaunch table td {
+	border: none;
+}
+.ms-menutoolbar td a {
+	color: white;
+}
+div.ms-buttonactivehover {
+	background: #4da2e8;
+	border: 1px #4da2e8 solid;
+}
+.ms-quicklaunch table.ms-navheader td, .ms-navheader2 td, .ms-quicklaunch span.ms-navheader {
+	background: #ffffff;
+	border: none;
+	padding: 0;
+}
+
+.ms-navheader {
+	background: #a1d62c url(_layouts/IMAGES/STARTUP/navHeader.gif) top left repeat-x;
+	font: verdana 10px bold;
+	color: #006600;
+	text-transform: capitalize;
+	border-bottom: 1px #6dab13 solid;
+}
+.ms-navsubmenu2 {
+	margin-bottom: 0px;
+}
+a.ms-navheader {
+	display: block;
+	padding: 3px;
+	padding-left: 16px;
+	color: #006600;
+}
+table.ms-navitem {
+	background: #bce285 none;
+}
+div.lhnav {
+	background: #bce285 none;
+	padding-bottom:5px;
+	padding-left:11px;
+	padding-top:5px;
+}
+.ms-menubuttonactivehover, .ms-splitbuttonhover {
+	background: none;
+	border: 1px transparent solid;
+}
+div.lhnav a {
+	color:#333333;
+	font-family:verdana;
+	font-size:90% !important;
+}
+.ms-listdescription {
+	background-color: #339EF2 !important;	
+	color: white;
+}
+.ms-navsub,
+.ms-navsubmenu2 {
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+.ms-menutoolbar {
+	border-top: 1px solid #99CFF9;
+	border-bottom: 1px solid #1E5987;
+	background: #339EF2 none;
+}
+.ms-menutoolbar td {
+	border-top: none;	
+	border-bottom: none;
+}
+table.ms-navitem td, span.ms-navitem {
+	padding-left: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: url(_layouts/IMAGES/STARTUP/quickLinksArrow.gif) 9px 9px no-repeat;
+}
+
+.ms-navItem a {
+	padding-left: 14px;
+	color: #333333;
+	font-family: verdana;
+	font-size: 90% !important;
+	background: transparent url(_layouts/IMAGES/STARTUP/bulletBlueArrow.gif) 2px 3px no-repeat;
+}
+
+.bullet {
+	background: url(_layouts/IMAGES/STARTUP/bullet.gif) left 50% no-repeat;
+	padding-left: 14px;
+}
+
+.ms-WPBody a:link, .ms-WPBody a:visited, .ms-propertysheet a {
+	color: #006699;
+}
+
+table.ms-recyclebin td a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+table.ms-recyclebin td a {
+	color:#ffffff;
+	font-weight:bold;
+	text-decoration:none;
+	display: block;
+	line-height: 20px;
+	border-top: solid 1px #99cff9;
+	background: url(_layouts/IMAGES/STARTUP/recycleBin.gif) 83px 51% no-repeat;
+	background-position:right;
+	padding-left: 9px;
+	border-bottom: 1px #1e5987 solid;
+}
+
+table.ms-recyclebin td {
+	padding: 0;
+}
+
+table.ms-recyclebin td img {
+	display: none;
+}
+table.ms-siteaction {
+	height:39px;
+	width: 159px;
+	background: transparent url(_layouts/IMAGES/STARTUP/bgSiteActionsLeft.gif) no-repeat;
+	padding-left: 53px;
+}
+.ms-siteactionsmenu {
+	background: transparent url(_layouts/IMAGES/STARTUP/bgSiteActions.gif) repeat-x;
+}
+.ms-siteactionsmenu div div div, .ms-siteactionsmenu div div div.ms-siteactionsmenuhover {
+	background: transparent url(_layouts/IMAGES/STARTUP/navHL.png) repeat-x;
+	border: none;
+	/*margin-bottom: 9px;*/
+	line-height: 22px;
+	height: 39px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 92px;
+}
+*html .ms-siteactionsmenu {
+	float: right;
+}
+
+*html .ms-siteactionsmenu div {
+	float: right;
+}
+*html .ms-siteactionsmenu div div div, .ms-siteactionsmenu div div div.ms-siteactionsmenuhover {
+	width: 110px;
+
+}
+*html .ms-siteactionsmenu div div div img {
+	top: 10px;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.ms-siteactionsmenu div div div a {
+	color: #006600;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+	padding-top: 10px;
+	display: block;	
+	float: left;
+}
+.ms-siteactionsmenu div div div a:hover {
+	color: white;
+}
+.ms-siteactionsmenu div div div img {
+	padding-top: 10px;
+	display: block;
+	float: left;
+}
+.ms-viewselectorhover, .ms-viewselector {
+	background: transparent none !important;
+	border: none !important;
+}
+
+table.ms-pageinformation {
+	background: none;
+}
+
+
+.zz1_TopNavigationMenu_8 {
+	background-color:#78c408 !important;
+	border: solid 1px #78c408 !important;
+}
+
+.ms-topNavFlyOuts {
+	background-color:#78c408 !important;
+}
+
+.ms-topNavFlyOuts a {
+	color: #ffffff;
+	font-family: Georgia;
+	display: block;
+}
+
+a.ms-topNavFlyOutsHover {
+	background: #299400 !important;
+}
+
+.ms-navheader a:hover, .ms-navheader2 a:hover {
+	color: #ffffff;
+}
